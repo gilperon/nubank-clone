@@ -89,8 +89,9 @@ h1, h2, h3, span, p {
 .tollbar h2 {
   margin: 0;
   padding: 0;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: var(--ff-graphik);
+  font-size: 20px;
+  font-weight: 600;
   color: white;
 }
 
