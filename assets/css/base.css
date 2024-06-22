@@ -63,7 +63,6 @@ h1, h2, h3, span, p {
   justify-content: space-between;
   padding: 28px;
   padding-top: 10px;
-  background: linear-gradient(180deg, #ff4586 0%, #f2295b 100%);
 }
 .tollbar .header {
   display: flex;
@@ -164,7 +163,7 @@ h1, h2, h3, span, p {
 }
 .content .account .carousel .carousel-item span {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   justify-content: start;
 }
