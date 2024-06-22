@@ -32,6 +32,7 @@ h1, h2, h3, span, p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .tollbar .header .person-circle {
   width: 50px;
