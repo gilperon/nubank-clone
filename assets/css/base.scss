@@ -258,18 +258,10 @@ h1,h2,h3,span,p{
 
     .loan{
         h1{
-            font-size:22px;
+            font-family: var(--ff-graphik);
+            font-size:20px;
             color:rgb(35,35,35);
-        }
-        h2{
-            font-size:24px;
-            margin:0;
-            margin-bottom:6px;
-        }
-        h3{
-            font-size:14px;
-            color:rgb(100,100,100);
-            margin-top:18px;
+            font-weight: 600;
         }
         p{
             // font-size:14px;

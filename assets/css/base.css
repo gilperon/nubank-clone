@@ -240,18 +240,10 @@ h1, h2, h3, span, p {
   padding-top: 4px;
 }
 .content .loan h1 {
-  font-size: 22px;
+  font-family: var(--ff-graphik);
+  font-size: 20px;
   color: rgb(35, 35, 35);
-}
-.content .loan h2 {
-  font-size: 24px;
-  margin: 0;
-  margin-bottom: 6px;
-}
-.content .loan h3 {
-  font-size: 14px;
-  color: rgb(100, 100, 100);
-  margin-top: 18px;
+  font-weight: 600;
 }
 .content .loan p {
   color: rgb(140, 140, 140);
