@@ -6,6 +6,7 @@
 :root {
   --ff-proxima: "Proxima Nova", Helvetica, sans-serif;
   --ff-poppins: Poppins, Helvetica, sans-serif;
+  --ff-montserrat: Montserrat, Helvetica, sans-serif;
 }
 
 html, body {
@@ -166,7 +167,7 @@ h1, h2, h3, span, p {
   max-width: calc(66.6666666667% - 7px) !important;
 }
 .content .credit-card h1 {
-  font-family: var(--ff-poppins);
+  font-family: var(--ff-montserrat);
   font-size: 22px;
   color: rgb(35, 35, 35);
   font-weight: 600;
