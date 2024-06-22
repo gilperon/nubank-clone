@@ -246,12 +246,11 @@ h1, h2, h3, span, p {
   font-weight: 600;
 }
 .content .loan p {
-  color: rgb(140, 140, 140);
   font-family: var(--ff-inter);
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .content .investments h1 {
   font-family: var(--ff-graphik);
