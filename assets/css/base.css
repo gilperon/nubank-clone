@@ -143,6 +143,9 @@ h1, h2, h3, span, p {
   font-weight: 600;
 }
 .content .account .content-title .balance {
+  font-family: var(--ff-graphik);
+  font-size: 20px;
+  color: rgb(35, 35, 35);
   margin-top: 10px;
 }
 .content .account .carousel {
