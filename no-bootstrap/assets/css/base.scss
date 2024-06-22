@@ -3,7 +3,7 @@
 
 
 /* Bootstrap 5.0 & icons */
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+// @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css');
 
 /* Keen-slider*/
@@ -34,7 +34,6 @@ h1,h2,h3,span,p{
     font-family: 'Arial', Helvetica, sans-serif;
     font-size:22px;
     color:rgb(35,35,35);
-    line-height: 1.2;
 }
 
 .m-0{margin:0;}
@@ -50,7 +49,6 @@ h1,h2,h3,span,p{
     justify-content: space-between;
     padding:28px;
     padding-top:10px;
-    box-sizing: initial;
    // background:linear-gradient(180deg, #ff4586 0%, #f2295b 100%);
 
     .header{
@@ -99,7 +97,7 @@ h1,h2,h3,span,p{
         padding-bottom:28px;
         border-top:2px solid rgb(241,241,241);
 
-        .card-custom-button{
+        .card{
             height: 50px;
             border-radius:15px;
             background-color:rgb(241,241,241);
@@ -108,21 +106,12 @@ h1,h2,h3,span,p{
             margin-top:24px;
             svg{
                 padding-left:24px;
-                overflow:visible;
-                padding-right:14px;
-                &.mt-fix{
-                    margin-top:-4px;
-                }
             }
             span{
                 padding-left:16px;
                 font-size:15px;
                 font-weight: 600;
                 font-family: var(--ff-graphik);
-            }
-            &.mx-28{
-                margin-left:28px;
-                margin-right:28px;
             }
 
         }
@@ -165,17 +154,15 @@ h1,h2,h3,span,p{
             font-size:20px;
             color:rgb(35,35,35);
             margin-top:10px;
-            font-weight: 600;
         }
     
-        .carousel-icn{
-            box-sizing: initial;
+        .carousel{
             margin-top:28px;
             margin-bottom:28px;
             padding-left:28px;
             width: calc(100% - 28px);
     
-           .carousel-icn-item{
+           .carousel-item{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -186,11 +173,6 @@ h1,h2,h3,span,p{
                     font-weight: 600;
                     justify-content: start;
                     font-family: var(--ff-graphik);
-                }
-                // Esses é o tamanho que setei no script do carousel para esse perView: 4.5, spacing: 14
-                &.keen-slider__slide{
-                    min-width: calc((100% / 4.5) - 14px) !important;
-                    max-width: calc((100% / 4.5) - 14px) !important;
                 }
             }
             .carousel-item-circle{
@@ -204,27 +186,27 @@ h1,h2,h3,span,p{
                 margin-bottom:12px;
             }
     
+            // Esses é o tamanho que setei no script do carousel para esse perView: 4.5, spacing: 14
+            .carousel-item.keen-slider__slide{
+                min-width: calc((100% / 4.5) - 14px) !important;
+                max-width: calc((100% / 4.5) - 14px) !important;
+            }
+    
         }
 
+        .my-cards{
+            margin-left:28px;
+            margin-right:28px;
+        }
 
-        .carousel-texto{
+        .cards{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            box-sizing: initial;
             padding-left:28px;
             width: calc((100% - 28px));
-
-            .carousel-texto-item{
-                display: flex;
-                justify-content: start;
-                align-items: center;
+            .card{
                 height: 88px;
-                border-radius: 15px;
-                background-color: rgb(241, 241, 241);
-                display: flex;
-                align-items: center;
-                margin-top: 24px;
                 p{
                     font-family: 'Inter', Helvetica, sans-serif;
                     padding-left:20px;
@@ -240,14 +222,14 @@ h1,h2,h3,span,p{
                         font-weight: 200;
                     }
                 }
-                // Esses é o tamanho que setei no script do carousel para esse perView: 1.5, spacing: 14,
-                &.keen-slider__slide{
-                    min-width: calc((100% / 1.5) - 3px) !important;
-                    max-width: calc((100% / 1.5) - 3px) !important;
-                }
+            }
+
+            // Esses é o tamanho que setei no script do carousel para esse perView: 1.5, spacing: 14,
+            .card.keen-slider__slide{
+                min-width: calc((100% / 1.5) - 7px) !important;
+                max-width: calc((100% / 1.5) - 7px) !important;
             }
         }
-
     }
 
 
@@ -265,7 +247,6 @@ h1,h2,h3,span,p{
             color:rgb(35,35,35);
             margin:0;
             margin-bottom:6px;
-            font-weight: 600;
         }
         h3{
             font-size:16px;
@@ -350,53 +331,13 @@ h1,h2,h3,span,p{
             margin-top:16px;
             font-weight: 400;
         }
-
-        .content-title{
+        &.px-0{
+            padding-left:0;
+            padding-right:0;
+        }
+        .ms-28{
             margin-left:28px;
         }
-
-        .carousel-discover{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            box-sizing: initial;
-            padding-left:28px;
-            width: calc((100% - 28px));
-
-            .carousel-discover-item{
-                display: flex;
-                justify-content: start;
-                align-items: center;
-                height: 88px;
-                border-radius: 15px;
-                background-color: rgb(241, 241, 241);
-                display: flex;
-                align-items: center;
-                margin-top: 24px;
-                p{
-                    font-family: 'Inter', Helvetica, sans-serif;
-                    padding-left:20px;
-                    padding-right:20px;
-                    font-size:14px;
-                    font-weight: 400;
-                    color:#232323;
-                    margin:0;
-                    span{
-                        color:rgb(130,10,209);
-                        padding:0;
-                        font-size:14px;
-                        font-weight: 200;
-                    }
-                }
-                // Esses é o tamanho que setei no script do carousel para esse perView: 1.5, spacing: 14,
-                &.keen-slider__slide{
-                    min-width: calc((100% / 1.5) - 3px) !important;
-                    max-width: calc((100% / 1.5) - 3px) !important;
-                }
-            }
-        }
-
-       
     }
 
 
