@@ -14,6 +14,7 @@
     --ff-proxima: 'Proxima Nova', Helvetica, sans-serif;
     --ff-poppins: Poppins, Helvetica, sans-serif;
     --ff-montserrat: Montserrat, Helvetica, sans-serif;
+    --ff-inter: Intter, Helvetica, sans-serif;
 }
 
 
@@ -217,7 +218,7 @@ h1,h2,h3,span,p{
      //Section CreditCard
      .credit-card{
         h1{
-            font-family: var(--ff-montserrat);
+            font-family: var(--ff-inter);
             font-size:20px;
             color:rgb(35,35,35);
             font-weight: 600;
