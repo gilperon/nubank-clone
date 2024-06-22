@@ -1,12 +1,11 @@
 /* Google Fonts  */
-@import url("https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700&display=swap");
 /* Bootstrap 5.0 & icons */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 /* Keen-slider*/
 @import url("https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css");
 :root {
-  --ff-proxima:"Proxima Nova", Helvetica, sans-serif;
-  --ff-proxima:"Proxima Nova", Helvetica, sans-serif;
+  --ff-proxima: "Proxima Nova", Helvetica, sans-serif;
+  --ff-poppins: Poppins, Helvetica, sans-serif;
 }
 
 html, body {
@@ -167,8 +166,10 @@ h1, h2, h3, span, p {
   max-width: calc(66.6666666667% - 7px) !important;
 }
 .content .credit-card h1 {
+  font-family: var(--ff-poppins);
   font-size: 22px;
   color: rgb(35, 35, 35);
+  font-weight: 600;
 }
 .content .credit-card h2 {
   font-size: 24px;
@@ -185,6 +186,9 @@ h1, h2, h3, span, p {
 .content .credit-card p {
   font-size: 14px;
   color: rgb(140, 140, 140);
+}
+.content .credit-card .contant-title {
+  padding-top: 4px;
 }
 .content .loan h1 {
   font-size: 22px;
