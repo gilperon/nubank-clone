@@ -12,8 +12,6 @@
 }
 
 
-
-
 @font-face {
     font-family: 'graphik_triallight';
     src: url('graphik-light-trial-webfont.woff2') format('woff2'),
@@ -22,8 +20,6 @@
     font-style: normal;
 
 }
-
-
 
 
 @font-face {
@@ -35,9 +31,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'graphik_regular_trialregular';
     src: url('graphik-regular-trial-webfont.woff2') format('woff2'),
@@ -46,9 +39,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'graphik_trialsemibold';
