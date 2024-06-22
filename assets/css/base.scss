@@ -368,7 +368,6 @@ h1,h2,h3,span,p{
                 border-radius: 15px;
                 background-color: rgb(241, 241, 241);
                 margin-top: 24px;
-                padding: 16px 18px 18px;
                 p{
                     font-family: var(--ff-inter);
                     font-size: 14px;
@@ -385,8 +384,8 @@ h1,h2,h3,span,p{
                 }
                 // Esses é o tamanho que setei no script do carousel para esse perView: 1.5, spacing: 14,
                 &.keen-slider__slide{
-                    min-width: calc((100% / 1.5) - 3px) !important;
-                    max-width: calc((100% / 1.5) - 3px) !important;
+                    // min-width: calc((100% / 1.5) - 3px) !important;
+                    // max-width: calc((100% / 1.5) - 3px) !important;
                 }
             }
         }

@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
-  var slider2 = new KeenSlider("#carousel-discover", {
+  var slider3 = new KeenSlider("#carousel-discover", {
     loop: false,
     mode: "free",
     slides: {
-      perView: 1.5,
+      perView: 2.5,
       spacing: 14,
     },
   });

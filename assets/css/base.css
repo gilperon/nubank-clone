@@ -339,7 +339,6 @@ h1, h2, h3, span, p {
   border-radius: 15px;
   background-color: rgb(241, 241, 241);
   margin-top: 24px;
-  padding: 16px 18px 18px;
 }
 .content .discover .carousel-discover .carousel-discover-item p {
   font-family: var(--ff-inter);
@@ -354,8 +353,4 @@ h1, h2, h3, span, p {
   padding: 0;
   font-size: 14px;
   font-weight: 200;
-}
-.content .discover .carousel-discover .carousel-discover-item.keen-slider__slide {
-  min-width: calc(66.6666666667% - 3px) !important;
-  max-width: calc(66.6666666667% - 3px) !important;
 }
