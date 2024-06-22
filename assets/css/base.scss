@@ -9,8 +9,8 @@
 /* Keen-slider*/
 @import url('https://cdn.jsdelivr.net/npm/keen-slider@6.8.5/keen-slider.min.css');
 
-// @import url('/assets/fonts/stylesheet.css');
 
+/* Custom fonts*/
 @import '_fonts';
 
 
@@ -147,7 +147,7 @@ h1,h2,h3,span,p{
 
         .content-title h1{
             font-family: var(--ff-graphik);
-            font-size:21px;
+            font-size:20px;
             color:rgb(35,35,35);
             font-weight: 600;
         }
@@ -231,7 +231,7 @@ h1,h2,h3,span,p{
      //Section CreditCard
      .credit-card{
         h1{
-            font-family: var(inter);
+            font-family: var(--ff-graphik);
             font-size:21px;
             color:rgb(35,35,35);
             font-weight: 600;
