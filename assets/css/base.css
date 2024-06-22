@@ -253,3 +253,17 @@ h1, h2, h3, span, p {
   margin-top: 16px;
   font-weight: 500;
 }
+.content .investments h1 {
+  font-family: var(--ff-graphik);
+  font-size: 20px;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+}
+.content .investments p, .content .investments small {
+  color: rgb(140, 140, 140);
+  font-family: var(--ff-inter);
+  margin: 0;
+  font-size: 14px;
+  margin-top: 16px;
+  font-weight: 400;
+}
