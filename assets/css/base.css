@@ -35,10 +35,11 @@
   font-style: normal;
 }
 :root {
-  --ff-main: "Arial", Helvetica, sans-serif;
-  --ff-proxima: "Proxima Nova", Helvetica, sans-serif;
-  --ff-poppins: Poppins, Helvetica, sans-serif;
-  --ff-montserrat: Montserrat, Helvetica, sans-serif;
+  /*
+  --ff-main: 'Arial', Helvetica, sans-serif; //n esta sendo usada
+  --ff-poppins: Poppins, Helvetica, sans-serif; // n esta sendo usada
+  --ff-montserrat: Montserrat, Helvetica, sans-serif; // n esta sendo usada
+  */
   --ff-inter: Inter, Helvetica, sans-serif;
   --ff-graphik: graphik_regular_trialregular, Helvetica, sans-serif;
 }
@@ -260,6 +261,20 @@ h1, h2, h3, span, p {
   font-weight: 600;
 }
 .content .investments p, .content .investments small {
+  color: rgb(140, 140, 140);
+  font-family: var(--ff-inter);
+  margin: 0;
+  font-size: 14px;
+  margin-top: 16px;
+  font-weight: 400;
+}
+.content .insurance h1 {
+  font-family: var(--ff-graphik);
+  font-size: 20px;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+}
+.content .insurance p, .content .insurance small {
   color: rgb(140, 140, 140);
   font-family: var(--ff-inter);
   margin: 0;
