@@ -92,17 +92,6 @@ h1,h2,h3,span,p{
         padding-bottom:28px;
         border-top:2px solid rgb(241,241,241);
 
-        // p{
-        //     color:rgb(140,140,140);
-        //     margin:0;
-        //     font-size:16px;
-        //     margin-top:16px;
-        //     font-weight: 600;
-        //     &.small{
-        //         font-size:14px;
-        //     }
-        // }
-
         .card{
             height: 50px;
             border-radius:15px;
@@ -239,12 +228,14 @@ h1,h2,h3,span,p{
      .credit-card{
         h1{
             font-family: var(--ff-graphik);
-            font-size:21px;
+            font-size:20px;
             color:rgb(35,35,35);
             font-weight: 600;
         }
         h2{
-            font-size:22px;
+            font-family: var(--ff-graphik);
+            font-size:20px;
+            color:rgb(35,35,35);
             margin:0;
             margin-bottom:6px;
         }
