@@ -168,7 +168,7 @@ h1, h2, h3, span, p {
 }
 .content .credit-card h1 {
   font-family: var(--ff-montserrat);
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(35, 35, 35);
   color: #232954;
   font-weight: 600;
