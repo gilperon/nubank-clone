@@ -167,7 +167,7 @@ h1, h2, h3, span, p {
   max-width: calc(66.6666666667% - 7px) !important;
 }
 .content .credit-card h1 {
-  font-size: 24px;
+  font-size: 22px;
   color: rgb(35, 35, 35);
 }
 .content .credit-card h2 {
@@ -178,12 +178,13 @@ h1, h2, h3, span, p {
 .content .credit-card h3 {
   font-size: 16px;
   color: rgb(100, 100, 100);
-  margin-top: 18px;
   font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 5px;
 }
 .content .credit-card p {
   font-size: 14px;
-  color: rgb(100, 100, 100);
+  color: rgb(140, 140, 140);
 }
 .content .loan h1 {
   font-size: 22px;
