@@ -89,6 +89,7 @@ h1, h2, h3, span, p {
   margin-top: 28px;
   margin-bottom: 28px;
   padding-left: 28px;
+  width: calc(100% - 28px);
 }
 .account .carousel .carousel-item {
   display: flex;
@@ -110,4 +111,8 @@ h1, h2, h3, span, p {
   align-items: center;
   justify-content: center;
   margin-bottom: 12px;
+}
+.account .carousel .carousel-item.keen-slider__slide {
+  min-width: calc(22.2222222222% - 14px) !important;
+  max-width: calc(22.2222222222% - 14px) !important;
 }
