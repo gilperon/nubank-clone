@@ -107,8 +107,9 @@ h1,h2,h3,span,p{
             }
             span{
                 padding-left:16px;
-                font-size:14px;
-                font-weight: bold;
+                font-size:15px;
+                font-weight: 600;
+                font-family: var(--ff-graphik);
             }
 
         }
@@ -165,8 +166,9 @@ h1,h2,h3,span,p{
                 span{
                     text-align: center;
                     font-size:14px;
-                    font-weight: bold;
+                    font-weight: 600;
                     justify-content: start;
+                    font-family: var(--ff-graphik);
                 }
             }
             .carousel-item-circle{

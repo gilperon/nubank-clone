@@ -116,8 +116,9 @@ h1, h2, h3, span, p {
 }
 .content section .card span {
   padding-left: 16px;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: var(--ff-graphik);
 }
 .content .content-title {
   display: flex;
@@ -164,8 +165,9 @@ h1, h2, h3, span, p {
 .content .account .carousel .carousel-item span {
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
   justify-content: start;
+  font-family: var(--ff-graphik);
 }
 .content .account .carousel .carousel-item-circle {
   width: 68px;
