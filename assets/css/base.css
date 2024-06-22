@@ -65,6 +65,7 @@ h1, h2, h3, span, p {
   padding-right: 28px;
   padding-top: 28px;
   padding-bottom: 28px;
+  border-top: 2px solid rgb(241, 241, 241);
 }
 .content section .card {
   height: 50px;
@@ -163,4 +164,23 @@ h1, h2, h3, span, p {
 .content .account .cards .card.keen-slider__slide {
   min-width: calc(66.6666666667% - 7px) !important;
   max-width: calc(66.6666666667% - 7px) !important;
+}
+.content .credit-card h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(35, 35, 35);
+}
+.content .credit-card h2 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 6px;
+}
+.content .credit-card h3 {
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  margin-top: 18px;
+}
+.content .credit-card p {
+  font-size: 14px;
+  color: rgb(100, 100, 100);
 }

@@ -81,6 +81,7 @@ h1,h2,h3,span,p{
         padding-right:28px;
         padding-top:28px;
         padding-bottom:28px;
+        border-top:2px solid rgb(241,241,241);
 
         .card{
             height: 50px;
@@ -199,7 +200,28 @@ h1,h2,h3,span,p{
     }
 
 
-
+     //Section CreditCard
+     .credit-card{
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:22px;
+            color:rgb(35,35,35);
+        }
+        h2{
+            font-size:24px;
+            margin:0;
+            margin-bottom:6px;
+        }
+        h3{
+            font-size:14px;
+            color:rgb(100,100,100);
+            margin-top:18px;
+        }
+        p{
+            font-size:14px;
+            color:rgb(100,100,100);
+        }
+    }
 
 
 
