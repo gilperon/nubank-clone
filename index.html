@@ -16,7 +16,7 @@
   <link href="assets/css/base.css" rel="stylesheet">
   <script src="assets/js/scripts.js"></script>
 </head>
-<body>
+<body  data-bs-toggle="modal" data-bs-target="#exampleModal">
 
     <div class="tollbar">
         <div class="header">
@@ -103,7 +103,7 @@
                 <!--END Carousel Icons-->
 
                 <!--Section Discover -->
-                <section class="discover px-0">
+                <section class="discover px-0 d-none">
                     <div class="content-title ms-28">
                       <h1>Descubra</h1>
                     </div>
@@ -286,9 +286,6 @@
     </div>
 
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-    </button>
     
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
