@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     loop: false,
     mode: "free",
     slides: {
-      perView: 2.5,
+      perView: 1.8,
       spacing: 14,
     },
   });
