@@ -67,6 +67,16 @@ h1, h2, h3, span, p {
   padding-bottom: 28px;
   border-top: 2px solid rgb(241, 241, 241);
 }
+.content section p {
+  color: rgb(140, 140, 140);
+  margin: 0;
+  font-size: 16px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+.content section p.small {
+  font-size: 14px;
+}
 .content section .card {
   height: 50px;
   border-radius: 15px;
@@ -167,7 +177,7 @@ h1, h2, h3, span, p {
   max-width: calc(66.6666666667% - 7px) !important;
 }
 .content .credit-card h1 {
-  font-size: 22px;
+  font-size: 24px;
   color: rgb(35, 35, 35);
 }
 .content .credit-card h2 {
@@ -183,4 +193,25 @@ h1, h2, h3, span, p {
 .content .credit-card p {
   font-size: 14px;
   color: rgb(100, 100, 100);
+}
+.content .loan h1 {
+  font-size: 22px;
+  color: rgb(35, 35, 35);
+}
+.content .loan h2 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 6px;
+}
+.content .loan h3 {
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+  margin-top: 18px;
+}
+.content .loan p {
+  color: rgb(140, 140, 140);
+  margin: 0;
+  font-size: 16px;
+  margin-top: 16px;
+  font-weight: 600;
 }

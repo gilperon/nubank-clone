@@ -83,6 +83,17 @@ h1,h2,h3,span,p{
         padding-bottom:28px;
         border-top:2px solid rgb(241,241,241);
 
+        p{
+            color:rgb(140,140,140);
+            margin:0;
+            font-size:16px;
+            margin-top:16px;
+            font-weight: 600;
+            &.small{
+                font-size:14px;
+            }
+        }
+
         .card{
             height: 50px;
             border-radius:15px;
@@ -204,7 +215,7 @@ h1,h2,h3,span,p{
      //Section CreditCard
      .credit-card{
         h1{
-            font-size:22px;
+            font-size:24px;
             color:rgb(35,35,35);
         }
         h2{
@@ -222,6 +233,35 @@ h1,h2,h3,span,p{
             color:rgb(100,100,100);
         }
     }
+
+
+    .loan{
+        h1{
+            font-size:22px;
+            color:rgb(35,35,35);
+        }
+        h2{
+            font-size:24px;
+            margin:0;
+            margin-bottom:6px;
+        }
+        h3{
+            font-size:14px;
+            color:rgb(100,100,100);
+            margin-top:18px;
+        }
+        p{
+            // font-size:14px;
+            // color:rgb(100,100,100);
+            color:rgb(140,140,140);
+            margin:0;
+            font-size:16px;
+            margin-top:16px;
+            font-weight: 600;
+        }
+    }
+
+
 
 
 
