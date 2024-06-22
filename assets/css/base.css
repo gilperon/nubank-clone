@@ -55,6 +55,10 @@ h1, h2, h3, span, p {
   color: rgb(35, 35, 35);
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .tollbar {
   height: 130px;
   background-color: rgb(130, 10, 209);
@@ -135,7 +139,7 @@ h1, h2, h3, span, p {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.content .account .content-title, .content .account .balance {
+.content .account .content-title.m-28, .content .account .balance.m-28 {
   margin-left: 28px;
   margin-right: 28px;
 }
@@ -283,4 +287,27 @@ h1, h2, h3, span, p {
   font-size: 14px;
   margin-top: 16px;
   font-weight: 400;
+}
+.content .discover {
+  border-bottom: 2px solid rgb(241, 241, 241);
+}
+.content .discover h1 {
+  font-family: var(--ff-graphik);
+  font-size: 20px;
+  color: rgb(35, 35, 35);
+  font-weight: 600;
+}
+.content .discover p {
+  font-family: var(--ff-inter);
+  margin: 0;
+  font-size: 14px;
+  margin-top: 16px;
+  font-weight: 400;
+}
+.content .discover.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.content .discover .ms-28 {
+  margin-left: 28px;
 }

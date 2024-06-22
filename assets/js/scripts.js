@@ -16,4 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
       spacing: 14,
     },
   });
+
+  var slider2 = new KeenSlider("#carousel-discover", {
+    loop: false,
+    mode: "free",
+    slides: {
+      perView: 1.5,
+      spacing: 14,
+    },
+  });
 });
